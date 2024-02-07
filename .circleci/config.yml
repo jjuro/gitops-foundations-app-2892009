@@ -27,4 +27,6 @@ workflows:
   main:
     jobs:
       - build:
-          context: DockerHub
+          context: 
+            - DockerHub
+            - my_context
